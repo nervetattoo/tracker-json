@@ -2,6 +2,10 @@
   "name": "tracker-json",
   "version": "1.0.0",
   "description": "Generate tracker.json with ease",
+  "keywords": [
+    "home-assistant",
+    "lovelace"
+  ],
   "bin": {
     "tracker-json": "./bin/tracker-json.js"
   },
