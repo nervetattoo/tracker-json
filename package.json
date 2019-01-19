@@ -1,0 +1,39 @@
+{
+  "name": "tracker-json",
+  "version": "1.0.0",
+  "description": "Generate tracker.json with ease",
+  "bin": {
+    "tracker-json": "./bin/tracker-json.js"
+  },
+  "main": "src/index.js",
+  "repository": "git@github.com:nervetattoo/tracker-json.git",
+  "author": "Raymond Julin <raymond.julin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "pkg-conf": "^2.1.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.10.0",
+    "release-it": "^10.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "meow": "^5.0.0",
+    "read-pkg-up": "^4.0.0"
+  }
+}
