@@ -2,6 +2,8 @@
 
 > Easily generate a tracker.json file for your Home Assistant custom cards on new releases
 
+[![npm version](https://badge.fury.io/js/tracker-json.svg)](https://badge.fury.io/js/tracker-json)
+
 ## Installation
 
 Either install tracker-json globally `npm i -g tracker-json` or locally in your cards project (`npm i --save-dev tracker-json`).
