@@ -27,10 +27,10 @@ You can specify multiple keys in the configuration to create different variation
 
 ### Supported configuration parameters
 
-| Option | Default                 | Description                                | 
-| --- | ---                        | ------                                     | 
-| repo   | package.json *repo* field | A repo slug like *github-user/repo-name* |
-| file   | package.json *file* field | The filename to link to inside the repo  |
+| Option | Default                   | Description                              |
+| ---    | ---                       | ---                                      |
+| repo   | package.json repo field   | A repo slug like github-user/repo-name   |
+| file   | package.json file field   | The filename to link to inside the repo  |
 
 ## Basic usage
 
