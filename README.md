@@ -58,7 +58,7 @@ Using release-it you would handle cutting a new release with commands like `rele
       "release": true
     },
     "scripts": {
-      "afterBump": "tracker-json"
+      "afterBump": "npx tracker-json"
     }
   }
 }
