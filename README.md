@@ -18,7 +18,8 @@ If my custom card project is called *awesome-card* I could configure it like so:
 {
   "tracker-json": {
     "awesome-card": {
-      "repo": "nervetattoo/awesome-card"
+      "repo": "nervetattoo/awesome-card",
+      "resolve": "gh:release"
     }
   }
 }
@@ -29,10 +30,22 @@ You can specify multiple keys in the configuration to create different variation
 
 ### Supported configuration parameters
 
-| Option | Default                   | Description                              |
-| ---    | ---                       | ---                                      |
-| repo   | package.json repo field   | A repo slug like github-user/repo-name   |
-| file   | package.json file field   | The filename to link to inside the repo  |
+| Option   | Default                   | Description                                |
+| ---      | ---                       | ---                                        |
+| repo     | package.json repo field   | A repo slug like github-user/repo-name     |
+| file     | package.json file field   | The filename to link to inside the repo    |
+| resolve  | gh:repo                   | Strategy for file locations are resolution |
+
+
+### Resolvers
+
+- *gh:repo*
+  - Uses the commit log up until the release tag as changelog
+  - Uses the raw.githubusercontent.com domain to locate the file
+- *gh:release*
+  - Uses the Github release with the version name for changelog. Remember to publish a changelog in the release
+  - Uses the release assets to link to the file. Remember to publish the asset to the release
+
 
 ## Basic usage
 
