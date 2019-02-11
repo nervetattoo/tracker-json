@@ -2,7 +2,7 @@
 
 > Easily generate a tracker.json file for your Home Assistant custom cards on new releases
 
-[![npm version](https://badge.fury.io/js/tracker-json.svg)](https://badge.fury.io/js/tracker-json)
+[![npm version](https://badge.fury.io/js/tracker-json.svg)](https://badge.fury.io/js/tracker-json) [![Greenkeeper badge](https://badges.greenkeeper.io/nervetattoo/tracker-json.svg)](https://greenkeeper.io/)
 
 ## Installation
 
